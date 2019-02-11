@@ -7,10 +7,11 @@
         <button @click="transpage('Language')" class="button">Language</button>
         <button @click="transpage('Contact')" class="button">Contact</button>
       </div>
-      <transition name="fade">
-      <component :is="currentPage"></component>
-      </transition>
-    <Footer></Footer>
+      <div id="main">
+        <transition name="fade">
+          <component :is="currentPage"></component>
+        </transition>
+      </div>
   </div>
 </template>
 
@@ -49,21 +50,31 @@ export default {
 <style>
 #button{
   margin-top: 80px;
+  display: flex;
 }
 .button {
-  display: inline-block;
   margin: 0 auto;
   width: 80pt;
-  border: solid 1px silver;
-  border-radius: 0.5rem 0.5rem;
   padding: 0.5rem 1.5rem;
   margin-top: 1rem;
   text-decoration: none;
+  background: #fff;
+  transition: .4s;
+  font-weight: bold;
+}
+.button:hover {
+  background: #91b5fb;
 }
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+  transition: opacity .4s;
+}
+
+component{
+  margin: 60px auto;
+  display:inline-block;
 }
 </style>

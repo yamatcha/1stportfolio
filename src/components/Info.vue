@@ -1,14 +1,16 @@
 <template>
-    <div id="Info">
-        <div v-for="(value,key) in object" v-bind:key="key">
-           {{key}}:{{value}}
+    <div id="content">
+        <div id="info">
+            <div v-for="(value,key) in object" v-bind:key="key">
+             {{key}}:{{value}}
+            </div>
         </div>
     </div>
 </template>
 
 <script>
 export default{
-    name: 'Info',
+    name: 'info',
     data() {
         return{
             object:{
@@ -23,3 +25,13 @@ export default{
     }
 }
  </script>
+ <style>
+ #info{
+     font-size: 30px;
+ }
+ #content{
+     margin:auto;
+ }
+
+ </style>
+ 

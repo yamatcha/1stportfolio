@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <p>Header</p>
+        <p>1st Portfolio</p>
     </header>
 
 </template>
@@ -12,6 +12,9 @@ header.header{
     top: 0px;
     width: 100%;
     height: 60px;
+    background:black;
+    color:#fff;
+    font-size: 30px;
 }
 </style>
 

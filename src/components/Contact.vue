@@ -1,5 +1,5 @@
 <template>
-    <div id="Contact">
+    <div id="contact">
             <p>contact</p>
         <div v-for="(value,key) in object" v-bind:key="key">
             <a v-bind:href="value">{{key}}</a>
@@ -9,7 +9,7 @@
 
     <script>
 export default{
-    name: 'Contact',
+    name: 'contact',
     data() {
         return{
             object:{
@@ -23,3 +23,8 @@ export default{
     }
 }
   </script>
+<style>
+#contact{
+    font-size: 40px;
+}
+</style>
