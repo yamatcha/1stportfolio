@@ -26,5 +26,6 @@ export default{
 <style>
 #contact{
     font-size: 40px;
+    font-family: 'Futura' sans-serif;
 }
 </style>

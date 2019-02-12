@@ -1,5 +1,8 @@
 <template>
     <div id="content">
+        <p id="titlei">
+            Information
+        </p>
         <div id="info">
             <div v-for="(value,key) in object" v-bind:key="key">
              {{key}}:{{value}}
@@ -26,12 +29,14 @@ export default{
 }
  </script>
  <style>
+ #titlei{
+     font-size: 40px;
+ }
  #info{
      font-size: 30px;
  }
- #content{
-     margin:auto;
- }
+
+
 
  </style>
  

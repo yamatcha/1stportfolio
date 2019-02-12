@@ -12,6 +12,7 @@
           <component :is="currentPage"></component>
         </transition>
       </div>
+      <Footer></Footer>
   </div>
 </template>
 
@@ -54,16 +55,20 @@ export default {
 }
 .button {
   margin: 0 auto;
-  width: 80pt;
+  width: 90pt;
   padding: 0.5rem 1.5rem;
   margin-top: 1rem;
   text-decoration: none;
   background: #fff;
+  color : #67c5ff;
+  border: double 4px #67c5ff;
+  border-radius: 3px;
   transition: .4s;
   font-weight: bold;
 }
 .button:hover {
-  background: #91b5fb;
+  background: #67c5ff;
+  color: white;
 }
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
@@ -73,8 +78,12 @@ export default {
   transition: opacity .4s;
 }
 
-component{
-  margin: 60px auto;
-  display:inline-block;
+#main{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  font-family: 'Libre Barcode 39 Text', cursive;
 }
 </style>

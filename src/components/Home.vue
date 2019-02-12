@@ -1,6 +1,7 @@
 <template>
     <div class="title">
-        <p>Soju Yamashita's portfolio</p>
+        <p>Soju Yamashita's<p> 
+            <p>portfolio</p>
     </div>
 </template>
 <style>

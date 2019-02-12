@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
-        <p>Footer</p>
-        <div id="contact">
+
+        <div id="email">
             Please contacts me! -> sojusojuonetmrlarcbz@gmail.com
         </div>
     </footer>
@@ -14,6 +14,9 @@ footer.footer{
     width: 100%;
     height: 50px;
     background-color:aqua;
+}
+#email{
+    font-size: 20px;
 }
 </style>
     
