@@ -1,6 +1,6 @@
 <template>
     <div id="contact">
-            <p>contact</p>
+            <h1>contact</h1>
         <div v-for="(value,key) in object" v-bind:key="key">
             <a v-bind:href="value">{{key}}</a>
         </div>
@@ -26,6 +26,5 @@ export default{
 <style>
 #contact{
     font-size: 40px;
-    font-family: 'Futura' sans-serif;
 }
 </style>

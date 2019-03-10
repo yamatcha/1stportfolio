@@ -4,7 +4,7 @@
       <div id="button">
         <button @click="transpage('Home')" class="button">Home</button>
         <button @click="transpage('Info')" class="button">Info</button>
-        <button @click="transpage('Language')" class="button">Language</button>
+        <button @click="transpage('Skill')" class="button">Skill</button>
         <button @click="transpage('Contact')" class="button">Contact</button>
       </div>
       <div id="main">
@@ -22,7 +22,7 @@ import Header from './components/HeaderComponent.vue'
 import Home from './components/HomeComponent.vue'
 import Info from './components/InfoComponent.vue'
 import Contact from './components/ContactComponent.vue'
-import Language from './components/LanguageComponent.vue'
+import Skill from './components/SkillComponent.vue'
 
 
 export default {
@@ -38,7 +38,7 @@ export default {
     Home,
     Info,
     Contact,
-    Language
+    Skill
   },
   methods:{
     transpage(page){
@@ -58,16 +58,15 @@ export default {
   width: 90pt;
   padding: 0.5rem 1.5rem;
   margin-top: 1rem;
-  text-decoration: none;
   background: #fff;
-  color : #67c5ff;
-  border: double 4px #67c5ff;
+  color : #000;
+  border: solid 4px #000;
   border-radius: 3px;
   transition: .4s;
   font-weight: bold;
 }
 .button:hover {
-  background: #67c5ff;
+  background: #000;
   color: white;
 }
 .fade-enter-active, .fade-leave-active {
@@ -79,8 +78,8 @@ export default {
 }
 
 #main{
-  display: flex;
-  justify-content: center;
+  margin-top : 30px;
+  margin-left: 60px
 }
 
 body{

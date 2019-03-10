@@ -1,8 +1,8 @@
 <template>
     <div id="content">
-        <p id="titlei">
+        <h1 id="titlei">
             Information
-        </p>
+        </h1>
         <div id="info">
             <div v-for="(value,key) in object" v-bind:key="key">
              {{key}}:{{value}}
