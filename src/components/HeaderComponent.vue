@@ -11,13 +11,14 @@ header{
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 80px;
+    height: 4rem;
     background:black;
     color:#fff;
     font-size: 30px;
 }
 #header-title{
-    margin-left:3rem;
+    margin-left:2.5rem;
+    margin-top: 1rem;
 }
 </style>
 

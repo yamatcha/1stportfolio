@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <Header></Header>
-      <div id="button">
+      <div id="button-wrapper">
         <button @click="transpage('Home')" class="button">Home</button>
         <button @click="transpage('Info')" class="button">Info</button>
         <button @click="transpage('Skill')" class="button">Skill</button>
         <button @click="transpage('Contact')" class="button">Contact</button>
       </div>
-      <div id="main">
+      <div id="main-content">
         <transition name="fade">
           <component :is="currentPage"></component>
         </transition>
@@ -49,7 +49,7 @@ export default {
 </script>
 
 <style>
-#button{
+#button-wrapper{
   margin-top: 80px;
   display: flex;
 }
@@ -69,17 +69,21 @@ export default {
   background: #000;
   color: white;
 }
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
+.fade-enter-active{
+  transition: all 1.2s ease-in;
+}
+.fade-leave-active{
+  transition: all .4s ease-in;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
-  transition: opacity .4s;
+  transform: translateX(10px);
 }
 
-#main{
-  margin-top : 30px;
-  margin-left: 60px
+#main-content{
+  margin-top : 1.5rem;
+  margin-left: 3rem;
+  padding-bottom: 60px;
 }
 
 body{
@@ -92,7 +96,8 @@ h1{
   justify-content: center;
 }
 
-.content-wrapper{
+.contents-wrapper{
      font-size: 30px;
+     margin-top: 2.5rem;
  }
 </style>

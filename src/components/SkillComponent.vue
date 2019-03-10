@@ -1,7 +1,7 @@
 <template>
   <div class="skill-wrapper">
     <h1>Skill</h1>
-    <div class="contents-wrapper">
+    <div class="contents-wrapper" id="skill-contentwrapper">
     <div class="skill-contents">
       <div v-for="(value,index) in vals" v-bind:key="index" class="skill-content">
         <skill-info v-bind="value"></skill-info> 
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style>
-.contents-wrapper{
+.skill-contentwrapper{
   display:flex;
   justify-content: center;
 }
@@ -46,8 +46,5 @@ export default {
   align-content: space-between;
   align-self:stretch;
   flex-wrap:wrap;
-}
-.skill-content{
-  width:200px;
 }
 </style>

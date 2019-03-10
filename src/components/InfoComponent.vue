@@ -3,7 +3,7 @@
         <h1 id="titlei">
             Information
         </h1>
-        <div class="content-wrapper">
+        <div class="contents-wrapper">
             <div v-for="(value,key) in object" v-bind:key="key">
              {{key}} : {{value}}
             </div>

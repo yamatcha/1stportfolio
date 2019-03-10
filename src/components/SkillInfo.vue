@@ -19,4 +19,9 @@ export default{
 #skill-info{
     border-top:solid 3px black;
 }
+#skill-info{
+  width:200px;
+  margin-bottom:2rem;
+  font-size:16px;
+}
 </style>
