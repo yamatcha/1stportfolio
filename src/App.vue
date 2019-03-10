@@ -100,4 +100,18 @@ h1{
      font-size: 30px;
      margin-top: 2.5rem;
  }
+
+
+ /*resopnsive design */
+ @media screen and (max-width:639px) {
+/*スマホ用のcssを記述*/
+#main-content{
+  margin-left: 1rem;
+  margin-top: 0.8rem
+}
+.contents-wrapper{
+  font-size: 15px;
+  margin-top:1.0rem;
+}
+}
 </style>
