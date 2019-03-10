@@ -18,7 +18,7 @@ footer{
     background-color: whitesmoke;
 }
 #email{
-    font-size: 30px;
+    font-size: 2rem;
 }
 </style>
     

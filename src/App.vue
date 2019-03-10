@@ -110,8 +110,9 @@ h1{
   margin-top: 0.8rem
 }
 .contents-wrapper{
-  font-size: 15px;
+  font-size: 18px;
   margin-top:1.0rem;
 }
+
 }
 </style>
