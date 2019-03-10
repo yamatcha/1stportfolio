@@ -2,8 +2,8 @@
     <div id="contact-wrapper">
             <h1>contact</h1>
         <div class="content-wrapper">
-            <div v-for="(value,key) in object" v-bind:key="key">
-                <a v-bind:href="value">{{key}}</a>
+            <div v-for="(value,key) in object" v-bind:key="key" id="contact">
+                <a v-bind:href="value" target="_blank">{{key}}</a>
             </div>
         </div>
     </div>
@@ -26,5 +26,14 @@ export default{
 }
   </script>
 <style>
-
+a{
+    color:grey;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+}
+#contact{
+    margin-top: 0.5rem;
+}
 </style>

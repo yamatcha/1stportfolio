@@ -5,7 +5,7 @@
         </h1>
         <div class="content-wrapper">
             <div v-for="(value,key) in object" v-bind:key="key">
-             {{key}}:{{value}}
+             {{key}} : {{value}}
             </div>
         </div>
     </div>
