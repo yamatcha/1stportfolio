@@ -17,12 +17,12 @@
 </template>
 
 <script>
-import Footer from './components/Footer.vue'
-import Header from './components/Header.vue'
-import Home from './components/Home.vue'
-import Info from './components/Info.vue'
-import Contact from './components/Contact.vue'
-import Language from './components/Language.vue'
+import Footer from './components/FooterComponent.vue'
+import Header from './components/HeaderComponent.vue'
+import Home from './components/HomeComponent.vue'
+import Info from './components/InfoComponent.vue'
+import Contact from './components/ContactComponent.vue'
+import Language from './components/LanguageComponent.vue'
 
 
 export default {
