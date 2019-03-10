@@ -6,8 +6,10 @@
 </template>
 <style>
 h2{
-    font-size: 60px;
+    font-size: 4rem;
     margin-top:0px;
+    margin-bottom :0.7rem;
+
 }
 
 </style>

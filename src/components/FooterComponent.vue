@@ -9,7 +9,7 @@
     
 <style>
 footer{
-    border-top: solid 0.1rem grey;
+    border-top: solid 0.05rem grey;
     padding-top: 0.8rem;
     position: fixed;
     bottom: 0px;
@@ -18,7 +18,7 @@ footer{
     background-color: whitesmoke;
 }
 #email{
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 </style>
     
