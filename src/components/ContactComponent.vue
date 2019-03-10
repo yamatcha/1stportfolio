@@ -1,8 +1,10 @@
 <template>
-    <div id="contact">
+    <div id="contact-wrapper">
             <h1>contact</h1>
-        <div v-for="(value,key) in object" v-bind:key="key">
-            <a v-bind:href="value">{{key}}</a>
+        <div class="content-wrapper">
+            <div v-for="(value,key) in object" v-bind:key="key">
+                <a v-bind:href="value">{{key}}</a>
+            </div>
         </div>
     </div>
 </template>
@@ -24,7 +26,5 @@ export default{
 }
   </script>
 <style>
-#contact{
-    font-size: 40px;
-}
+
 </style>

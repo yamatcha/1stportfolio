@@ -9,14 +9,15 @@
     
 <style>
 footer.footer{
-    border-top: solid 3px grey;
+    border-top: solid 0.1rem grey;
+    padding-top: 0.5rem;
     position: fixed;
     bottom: 0px;
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 #email{
-    font-size: 20px;
+    font-size: 30px;
 }
 </style>
     

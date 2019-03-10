@@ -34,10 +34,6 @@ export default {
 </script>
 
 <style>
-h1{
-  display:flex;
-  justify-content: center;
-}
 .contents-wrapper{
   display:flex;
   justify-content: center;
@@ -48,6 +44,7 @@ h1{
   display:flex;
   justify-content: space-between;
   align-content: space-between;
+  align-self:stretch;
   flex-wrap:wrap;
 }
 .skill-content{

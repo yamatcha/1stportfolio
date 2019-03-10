@@ -1,5 +1,5 @@
 <template>
-    <header class="header">
+    <header id="header">
         <p>1st Portfolio</p>
     </header>
 
@@ -7,7 +7,7 @@
 
 
 <style>
-header.header{
+header#header{
     position: fixed;
     top: 0px;
     width: 100%;

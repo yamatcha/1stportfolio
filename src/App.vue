@@ -83,6 +83,15 @@ export default {
 }
 
 body{
-  font-family: 'Libre Barcode 39 Text', cursive;
+  font-family: 'Helvetica';
 }
+
+h1{
+  display:flex;
+  justify-content: center;
+}
+
+.content-wrapper{
+     font-size: 30px;
+ }
 </style>

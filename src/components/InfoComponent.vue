@@ -3,7 +3,7 @@
         <h1 id="titlei">
             Information
         </h1>
-        <div id="info">
+        <div class="content-wrapper">
             <div v-for="(value,key) in object" v-bind:key="key">
              {{key}}:{{value}}
             </div>
@@ -32,11 +32,5 @@ export default{
  #titlei{
      font-size: 40px;
  }
- #info{
-     font-size: 30px;
- }
-
-
-
  </style>
  
