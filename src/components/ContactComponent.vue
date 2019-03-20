@@ -20,6 +20,7 @@ export default{
                 Instagram:"https://www.instagram.com/soju_yamacha/?hl=ja",
                 Atcoder:"https://atcoder.jp/users/yamathca",
                 Applemusic:"https://itunes.apple.com/profile/yamatcha",
+                Blog:"https://yamatcha.hatenablog.com/"
             }
         }
     }
